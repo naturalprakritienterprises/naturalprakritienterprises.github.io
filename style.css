@@ -1,0 +1,49 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e6f2e6;
+    color: #2d4d2a;
+}
+header {
+    background-color: #4CAF50;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.hero {
+    text-align: center;
+    padding: 20px;
+}
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #388E3C;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.gallery {
+    padding: 20px;
+    text-align: center;
+}
+.gallery img {
+    max-width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.reviews {
+    padding: 20px;
+    background-color: #d7eed7;
+    text-align: center;
+}
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+a {
+    color: #2d4d2a;
+}
