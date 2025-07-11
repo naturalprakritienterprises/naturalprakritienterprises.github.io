@@ -4,46 +4,56 @@ body {
     margin: 0;
     padding: 0;
     background-color: #e6f2e6;
-    color: #2d4d2a;
+    color: #2e4d2e;
+    text-align: center;
 }
 header {
     background-color: #4CAF50;
-    padding: 20px;
-    text-align: center;
     color: white;
-}
-.hero {
-    text-align: center;
     padding: 20px;
 }
-.cta-button {
+.highlight {
+    background-color: #d9fdd3;
+    padding: 20px;
+}
+.btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #388E3C;
+    margin-top: 10px;
+    background-color: #4CAF50;
     color: white;
     text-decoration: none;
     border-radius: 5px;
 }
-.gallery {
+.products {
     padding: 20px;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.gallery div {
     text-align: center;
 }
 .gallery img {
-    max-width: 200px;
-    margin: 10px;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
     border-radius: 10px;
 }
-.reviews {
+.feedback {
+    background-color: #f0fff0;
     padding: 20px;
-    background-color: #d7eed7;
-    text-align: center;
+    font-style: italic;
 }
 footer {
     background-color: #4CAF50;
     color: white;
-    text-align: center;
     padding: 10px;
 }
-a {
-    color: #2d4d2a;
+footer a {
+    color: #fff;
+    text-decoration: underline;
 }
